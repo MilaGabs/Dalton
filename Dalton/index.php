@@ -20,17 +20,7 @@ $json_str = json_decode($json_file, true);
   <!-- Navigation -->
   <?php include 'include_nav.html' ?>
 
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>        
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('img/ideia2.jpg')"></div>
-      </div>
-    </div>
-  </header>
+   <?php include 'include_header.html' ?>
 
   <!-- Page Content -->
   <div class="container">
